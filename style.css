@@ -142,7 +142,7 @@ body{
   top: 0;
   opacity: 1;
   pointer-events: auto;
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
 }
 .sidebar .nav-links li .sub-menu .link_name{
   display: none;
@@ -218,7 +218,7 @@ body{
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
-  padding: 12px;
+  padding: 30px;
 }
 .sidebar.close ~ .home-section{
   left: 78px;
@@ -228,6 +228,7 @@ body{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
@@ -284,7 +285,7 @@ body{
   justify-content: center;
   width: calc(100% / 4 - 15px);
   background: #fff;
-  padding: 15px 14px;
+  padding: 85px 84px;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
@@ -296,7 +297,6 @@ body{
 .home-content .box .number{
   display: inline-block;
   font-size: 35px;
-  margin-top: -6px;
   font-weight: 500;
 }
 .home-content .box .indicator{
